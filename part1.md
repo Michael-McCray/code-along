@@ -52,6 +52,24 @@ Step 4
 inside components/app.js
 
 ```
+export default ({ children }) => (
+  <main>
+    {children}
+  </main>
+)
+
+```
+
+-------------------------------------------------
+
+
+-> # Slide 6  <-
+
+Step 5
+
+lets add some style to components/app.js
+
+```
 ...
     {children}
     <style jsx global>{`
@@ -96,27 +114,9 @@ inside components/app.js
 
 -------------------------------------------------
 
+-> # Slide 7  <-
 
--> # Slide 5  <-
-
-Step 4
-
-lets add some style to components/app.js
-
-```
-export default ({ children }) => (
-  <main>
-    {children}
-  </main>
-)
-
-```
-
--------------------------------------------------
-
--> # Slide 6  <-
-
-Step 5
+Step 6
 
 inside pages/index.js
 
@@ -134,9 +134,9 @@ export default () => (
 
 -------------------------------------------------
 
--> # Slide 7  <-
+-> # Slide 8  <-
 
-Step 6
+Step 7
 
 * touch components/header.js
 * touch pages/about.js
@@ -144,9 +144,9 @@ Step 6
 
 -------------------------------------------------
 
--> # Slide 8  <-
+-> # Slide 9  <-
 
-Step 7
+Step 8
 
 Inside components/header.js
 
@@ -172,9 +172,9 @@ export default withRouter(Header)
 
 -------------------------------------------------
 
--> # Slide 9  <-
+-> # Slide 10  <-
 
-Step 8
+Step 9
 
 
 Inside components/header.js lets add some style
@@ -206,9 +206,9 @@ export default withRouter(Header)
 
 -------------------------------------------------
 
--> # Slide 10  <-
+-> # Slide 11  <-
 
-Step 9
+Step 10
 
 Inside pages/about.js lets add some style
 
@@ -231,9 +231,9 @@ export default () => (
 
 -------------------------------------------------
 
--> # Slide 11  <-
+-> # Slide 12  <-
 
-Step 10
+Step 11
 
 * touch components/header.js
 * touch pages/about.js
@@ -241,9 +241,9 @@ Step 10
 
 -------------------------------------------------
 
--> # Slide 12  <-
+-> # Slide 13  <-
 
-Step 11
+Step 12
 
 lets run this mf*
 
