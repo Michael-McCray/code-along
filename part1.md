@@ -240,7 +240,6 @@ add header to pages/index.js
 ```
 import App from '../components/app'
 import Header from '../components/header'
-import PostList from '../components/post-list'
 
 export default () => (
   <App>
