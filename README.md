@@ -6,7 +6,11 @@
 ## Install command-line based markdown presentation tool.
 
 ```bash
-brew install mdp
+$ git clone https://github.com/visit1985/mdp.git
+$ cd mdp
+$ make
+$ make install
+$ mdp sample.md
 ```
 
 
