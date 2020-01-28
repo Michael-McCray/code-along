@@ -125,7 +125,7 @@ import App from '../components/app'
 
 export default () => (
   <App>
-  <P>yurrrrrrr</p>
+  <p>yurrrrrrr</p>
   </App>
 )
 
