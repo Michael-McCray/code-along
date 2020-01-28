@@ -22,11 +22,11 @@ $ mdp sample.md
 ```bash
 cd code-along
 # part1
-mbp part1.md
+mdp part1.md
 # part2
-mbp part2.md
+mdp part2.md
 # part3
-mbp part3.md
+mdp part3.md
 ```
 
 
